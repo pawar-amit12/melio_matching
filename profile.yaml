@@ -1,0 +1,21 @@
+melio_matching:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: qbb96412.us-east-1
+
+      # User/password auth
+      user: ramakrishna
+      password: Dwitha@102026
+      database: my_database
+      schema: warehouse
+      threads: 1
+      client_session_keep_alive: False
+      query_tag: 
+
+      # optional
+      connect_retries: 0 # default 0
+      connect_timeout: 10 # default: 10
+      retry_on_database_errors: False # default: false 
+      retry_all: False  # default: false

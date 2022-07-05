@@ -1,0 +1,176 @@
+2022-07-04 14:26:41.545058 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 14:26:41.907955 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 14:26:41.969443 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-04 14:26:44.121901 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-07-04 14:26:44.125486 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-07-04 14:26:44.128464 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-07-04 14:26:44.131068 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-07-04 14:37:07.923787 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 14:37:08.151906 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 14:37:08.178731 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-04 14:41:13.576935 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 14:41:13.790296 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 14:41:13.817189 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-04 14:47:17.307766 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 14:47:17.684062 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 14:47:17.743544 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-04 15:29:36.592428 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 15:29:36.992797 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-04 15:29:37.055370 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 04:59:12.553329 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 04:59:12.894168 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 04:59:12.932003 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:00:03.107437 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:00:03.529649 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:00:03.587223 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:03:59.463440 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:03:59.608192 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:03:59.635502 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:04:30.876027 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:04:31.050238 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:04:31.077324 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:08:00.839586 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:08:01.142381 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:08:01.203261 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:09:44.249269 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:09:44.579683 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:09:44.644795 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:09:46.444347 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-07-05 05:09:46.447682 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-07-05 05:09:46.450173 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-07-05 05:09:46.453008 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-07-05 05:13:35.355236 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:13:35.563038 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:13:35.599201 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:16:02.625960 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:16:03.221843 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:16:03.272604 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:20:20.113355 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:20:20.430414 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:20:20.483945 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:24:50.431308 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:24:50.744181 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:24:50.797568 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:41:52.904024 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:41:53.237862 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:41:53.292624 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:42:50.221384 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:42:50.438443 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:42:50.479817 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:43:13.674715 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:43:13.982286 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:43:14.026303 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:46:12.312795 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:46:12.588476 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:46:12.626264 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:47:06.227001 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:47:06.530101 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:47:06.579898 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 05:53:52.558875 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:53:52.893474 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 05:53:52.939726 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:07:09.413074 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:07:09.823587 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:07:09.884333 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:07:48.790140 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:07:48.866175 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:07:48.892356 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:08:36.063974 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:08:36.194314 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:08:36.224295 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:10:53.303988 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:10:53.517075 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:10:53.564934 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:11:29.227563 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:11:29.572514 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:11:29.632786 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:12:21.414515 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:12:21.495374 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:12:21.517541 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:35:33.161405 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:35:33.342043 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:35:33.373759 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:37:56.954480 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:37:57.290791 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:37:57.347614 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:39:18.423648 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:39:18.569259 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:39:18.594894 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:40:14.206708 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:40:14.519587 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:40:14.566928 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:48:50.862840 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:48:51.138648 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:48:51.181657 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:50:39.847417 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:50:40.111067 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:50:40.146216 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:52:08.209429 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:52:08.401215 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:52:08.428672 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:53:37.317812 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:53:37.482217 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:53:37.507127 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:54:25.641354 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:54:25.855607 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:54:25.952552 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:55:09.279114 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:55:09.527919 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:55:09.574325 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 06:56:22.140525 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:56:22.535801 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 06:56:22.579232 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 07:00:17.445514 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:00:17.858502 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:00:17.905116 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 07:10:50.732220 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:10:50.905225 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:10:50.933637 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 07:15:06.650370 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:15:06.831476 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:15:06.857942 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 07:28:38.627111 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:28:38.812205 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:28:38.847748 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 07:28:57.857448 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:28:57.934970 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:28:57.958293 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 07:29:50.452608 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:29:50.528640 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:29:50.550351 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 07:32:35.722596 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:32:36.243058 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:32:36.410930 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 07:45:50.642109 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:45:50.844266 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:45:50.874456 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 07:46:17.439710 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:46:17.749486 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 07:46:17.791785 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 08:04:50.865002 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:04:51.230804 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:04:51.286524 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 08:07:30.608043 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:07:30.780957 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:07:30.815777 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 08:09:20.636695 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:09:20.881277 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:09:20.925541 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 08:30:46.197016 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:30:46.494960 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:30:46.552421 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 08:56:18.740262 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:56:19.020247 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:56:19.062001 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 08:58:26.939880 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:58:27.087749 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 08:58:27.115810 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 09:02:12.703474 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 09:02:13.021340 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 09:02:13.063203 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 09:03:21.480146 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 09:03:21.796337 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 09:03:21.850597 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+2022-07-05 09:04:40.635193 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 09:04:40.848392 (MainThread): Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+2022-07-05 09:04:40.875449 (MainThread): You have an incompatible version of 'pyarrow' installed (3.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'

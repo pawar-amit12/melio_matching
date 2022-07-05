@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: melio_matching_1_model
+  - name: melio_matching_2_model
+  - name: melio_matching_3_model
+  - name: melio_matching_4_dbt
