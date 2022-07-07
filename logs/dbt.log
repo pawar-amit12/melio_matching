@@ -7098,3 +7098,312 @@ begin;
 09:13:22.997539 [info ] [MainThread]: [32mCompleted successfully[0m
 09:13:22.998189 [info ] [MainThread]: 
 09:13:22.998705 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+
+
+============================== 2022-07-06 15:32:03.257107 | dc59662a-4482-4686-b7db-16ff01eb623f ==============================
+15:32:03.257133 [info ] [MainThread]: Running with dbt=1.1.1
+15:32:03.273400 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/amit/.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+15:32:03.274154 [debug] [MainThread]: Tracking: do not track
+15:32:03.344782 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+15:32:03.345030 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+15:32:03.360611 [info ] [MainThread]: Found 4 models, 0 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 4 sources, 0 exposures, 0 metrics
+15:32:03.362781 [info ] [MainThread]: 
+15:32:03.363383 [debug] [MainThread]: Acquiring new snowflake connection "master"
+15:32:03.364457 [debug] [ThreadPool]: Acquiring new snowflake connection "list_my_database"
+15:32:03.379871 [debug] [ThreadPool]: Using snowflake connection "list_my_database"
+15:32:03.380134 [debug] [ThreadPool]: On list_my_database: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "connection_name": "list_my_database"} */
+
+    show terse schemas in database my_database
+    limit 10000
+15:32:03.380283 [debug] [ThreadPool]: Opening a new connection, currently in state init
+15:32:05.372786 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.99 seconds
+15:32:05.375901 [debug] [ThreadPool]: On list_my_database: Close
+15:32:05.877958 [debug] [ThreadPool]: Acquiring new snowflake connection "list_my_database_myschema"
+15:32:05.887205 [debug] [ThreadPool]: Using snowflake connection "list_my_database_myschema"
+15:32:05.887447 [debug] [ThreadPool]: On list_my_database_myschema: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "connection_name": "list_my_database_myschema"} */
+
+    show terse objects in my_database.myschema
+15:32:05.887607 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+15:32:07.520890 [debug] [ThreadPool]: SQL status: SUCCESS 15 in 1.63 seconds
+15:32:07.523755 [debug] [ThreadPool]: On list_my_database_myschema: Close
+15:32:08.107500 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+15:32:08.107967 [info ] [MainThread]: 
+15:32:08.115634 [debug] [Thread-1  ]: Began running node model.melio_matching.melio_matching_1_model
+15:32:08.116035 [info ] [Thread-1  ]: 1 of 4 START view model myschema.melio_matching_1_model ........................ [RUN]
+15:32:08.116732 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.melio_matching.melio_matching_1_model"
+15:32:08.116949 [debug] [Thread-1  ]: Began compiling node model.melio_matching.melio_matching_1_model
+15:32:08.117133 [debug] [Thread-1  ]: Compiling model.melio_matching.melio_matching_1_model
+15:32:08.120932 [debug] [Thread-1  ]: Writing injected SQL for node "model.melio_matching.melio_matching_1_model"
+15:32:08.134626 [debug] [Thread-1  ]: finished collecting timing info
+15:32:08.135081 [debug] [Thread-1  ]: Began executing node model.melio_matching.melio_matching_1_model
+15:32:08.167593 [debug] [Thread-1  ]: Writing runtime SQL for node "model.melio_matching.melio_matching_1_model"
+15:32:08.170613 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_1_model"
+15:32:08.170820 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_1_model: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "node_id": "model.melio_matching.melio_matching_1_model"} */
+
+  create or replace  view my_database.myschema.melio_matching_1_model
+  
+   as (
+    SELECT a.cleanedname, a.companyname, c.name, '' as officers_name, c.company_number, a.delivery_line_1, a.city_name,
+    a.state_abbreviation, a.zipcode,
+    c.registered_address_street_address, c.registered_address_locality,
+    c.jurisdiction_code, c.registered_address_postal_code,
+        a.rdi
+    FROM myschema.melio_input a
+    inner join myschema.oc_companies c
+    on UPPER(a.cleanedname) = TRIM(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(UPPER(c.name  
+                ), ' INCORPORATED', ' '  
+                ), ' CORPORATION', ' '  
+                ), ' LIMITED', ' '  
+                ), ' RECEIVERSHIP', ' '  
+                ), ' SERVICE', ' '  
+                ), ' SERVICES', ' '  
+                ), ' COMPANY', ' '  
+                ), ' MANAGEMENT', ' '  
+                ), ' REFI', ' '  
+                ), ' SUBCHAPTER V', ' '  
+                ), ' INC', ' '  
+                ), ' CORP', ' '  
+                ), ' LTD', ' '  
+                ), ' PLLC', ' '  
+                ), ' LLC', ' '  
+                ), ' L L C', ' '  
+                ), ' PC', ' '  
+                ), ' LP', ' '  
+                ), ' AND ', ' '  
+                ), ' CO ', ' '  
+                ), ' MG', ' '  
+                ), '.', ' '  
+                ), ',', ' '  
+                ), '#', ' '  
+                ), '&', ' '  
+                ), '$', ' '  
+                ), '"', ' '  
+                ), '''', ' '  
+                ), '`', ' '  
+                ), '_', ' '  
+                ), '-', ' '  
+                ), '+', ' '  
+                ), '    ', ' '  
+                ), '   ', ' '  
+                ), '  ', ' '
+                )  
+            ) 
+    and upper(a.city_name) = upper(c.registered_address_locality)
+    and upper(a.state_abbreviation) = split_part(upper(c.jurisdiction_code), '_', 2)
+  );
+15:32:08.170962 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+15:32:10.034536 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.86 seconds
+15:32:10.044250 [debug] [Thread-1  ]: finished collecting timing info
+15:32:10.044526 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_1_model: Close
+15:32:10.638113 [info ] [Thread-1  ]: 1 of 4 OK created view model myschema.melio_matching_1_model ................... [[32mSUCCESS 1[0m in 2.52s]
+15:32:10.638993 [debug] [Thread-1  ]: Finished running node model.melio_matching.melio_matching_1_model
+15:32:10.639287 [debug] [Thread-1  ]: Began running node model.melio_matching.melio_matching_2_model
+15:32:10.639742 [info ] [Thread-1  ]: 2 of 4 START view model myschema.melio_matching_2_model ........................ [RUN]
+15:32:10.640439 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.melio_matching.melio_matching_2_model"
+15:32:10.640681 [debug] [Thread-1  ]: Began compiling node model.melio_matching.melio_matching_2_model
+15:32:10.640889 [debug] [Thread-1  ]: Compiling model.melio_matching.melio_matching_2_model
+15:32:10.644913 [debug] [Thread-1  ]: Writing injected SQL for node "model.melio_matching.melio_matching_2_model"
+15:32:10.647937 [debug] [Thread-1  ]: finished collecting timing info
+15:32:10.648275 [debug] [Thread-1  ]: Began executing node model.melio_matching.melio_matching_2_model
+15:32:10.651319 [debug] [Thread-1  ]: Writing runtime SQL for node "model.melio_matching.melio_matching_2_model"
+15:32:10.654603 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_2_model"
+15:32:10.654801 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_2_model: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "node_id": "model.melio_matching.melio_matching_2_model"} */
+
+  create or replace  view my_database.myschema.melio_matching_2_model
+  
+   as (
+    SELECT a.cleanedname, a.companyname, '' as name,c.name as officers_name, c.company_number, a.delivery_line_1, a.city_name,
+    a.state_abbreviation, a.zipcode,
+    c.address_street_address, c.address_locality,
+    c.jurisdiction_code, c.address_postal_code,
+    a.rdi
+    FROM myschema.melio_input a
+    LEFT JOIN myschema.melio_matching_1_model b
+    on a.companyname = b.companyname
+    inner join myschema.oc_officers c
+    on UPPER(a.cleanedname) = TRIM(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(UPPER(c.name  
+                ), ' INCORPORATED', ' '  
+                ), ' CORPORATION', ' '  
+                ), ' LIMITED', ' '  
+                ), ' RECEIVERSHIP', ' '  
+                ), ' SERVICE', ' '  
+                ), ' SERVICES', ' '  
+                ), ' COMPANY', ' '  
+                ), ' MANAGEMENT', ' '  
+                ), ' REFI', ' '  
+                ), ' SUBCHAPTER V', ' '  
+                ), ' INC', ' '  
+                ), ' CORP', ' '  
+                ), ' LTD', ' '  
+                ), ' PLLC', ' '  
+                ), ' LLC', ' '  
+                ), ' L L C', ' '  
+                ), ' PC', ' '  
+                ), ' LP', ' '  
+                ), ' AND ', ' '  
+                ), ' CO ', ' '  
+                ), ' MG', ' '  
+                ), '.', ' '  
+                ), ',', ' '  
+                ), '#', ' '  
+                ), '&', ' '  
+                ), '$', ' '  
+                ), '"', ' '  
+                ), '''', ' '  
+                ), '`', ' '  
+                ), '_', ' '  
+                ), '-', ' '  
+                ), '+', ' '  
+                ), '    ', ' '  
+                ), '   ', ' '  
+                ), '  ', ' '
+                )  
+            )
+    and upper(a.city_name) = upper(c.address_locality)
+    and upper(a.state_abbreviation) = split_part(upper(c.jurisdiction_code), '_', 2)
+    where b.companyname is null
+  );
+15:32:10.654957 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+15:32:12.271494 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.62 seconds
+15:32:12.273495 [debug] [Thread-1  ]: finished collecting timing info
+15:32:12.273849 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_2_model: Close
+15:32:12.813367 [info ] [Thread-1  ]: 2 of 4 OK created view model myschema.melio_matching_2_model ................... [[32mSUCCESS 1[0m in 2.17s]
+15:32:12.821075 [debug] [Thread-1  ]: Finished running node model.melio_matching.melio_matching_2_model
+15:32:12.821932 [debug] [Thread-1  ]: Began running node model.melio_matching.melio_matching_3_model
+15:32:12.822482 [info ] [Thread-1  ]: 3 of 4 START view model myschema.melio_matching_3_model ........................ [RUN]
+15:32:12.823168 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.melio_matching.melio_matching_3_model"
+15:32:12.823416 [debug] [Thread-1  ]: Began compiling node model.melio_matching.melio_matching_3_model
+15:32:12.823627 [debug] [Thread-1  ]: Compiling model.melio_matching.melio_matching_3_model
+15:32:12.828312 [debug] [Thread-1  ]: Writing injected SQL for node "model.melio_matching.melio_matching_3_model"
+15:32:12.839962 [debug] [Thread-1  ]: finished collecting timing info
+15:32:12.840444 [debug] [Thread-1  ]: Began executing node model.melio_matching.melio_matching_3_model
+15:32:12.844192 [debug] [Thread-1  ]: Writing runtime SQL for node "model.melio_matching.melio_matching_3_model"
+15:32:12.847472 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_3_model"
+15:32:12.847682 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_3_model: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "node_id": "model.melio_matching.melio_matching_3_model"} */
+
+  create or replace  view my_database.myschema.melio_matching_3_model
+  
+   as (
+    SELECT a.cleanedname, a.companyname, c.name, '' as officers_name, c.company_number, a.delivery_line_1, a.city_name,
+    a.state_abbreviation, a.zipcode,
+    c.registered_address_street_address, c.registered_address_locality,
+    c.jurisdiction_code, c.registered_address_postal_code,
+        a.rdi
+    FROM myschema.melio_input a
+    LEFT JOIN myschema.melio_matching_1_model b
+    on a.companyname = b.companyname
+    inner join myschema.oc_companies c
+    on UPPER(a.cleanedname) = TRIM(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(UPPER(c.name  
+                ), ' INCORPORATED', ' '  
+                ), ' CORPORATION', ' '  
+                ), ' LIMITED', ' '  
+                ), ' RECEIVERSHIP', ' '  
+                ), ' SERVICE', ' '  
+                ), ' SERVICES', ' '  
+                ), ' COMPANY', ' '  
+                ), ' MANAGEMENT', ' '  
+                ), ' REFI', ' '  
+                ), ' SUBCHAPTER V', ' '  
+                ), ' INC', ' '  
+                ), ' CORP', ' '  
+                ), ' LTD', ' '  
+                ), ' PLLC', ' '  
+                ), ' LLC', ' '  
+                ), ' L L C', ' '  
+                ), ' PC', ' '  
+                ), ' LP', ' '  
+                ), ' AND ', ' '  
+                ), ' CO ', ' '  
+                ), ' MG', ' '  
+                ), '.', ' '  
+                ), ',', ' '  
+                ), '#', ' '  
+                ), '&', ' '  
+                ), '$', ' '  
+                ), '"', ' '  
+                ), '''', ' '  
+                ), '`', ' '  
+                ), '_', ' '  
+                ), '-', ' '  
+                ), '+', ' '  
+                ), '    ', ' '  
+                ), '   ', ' '  
+                ), '  ', ' '
+                )  
+            ) 
+    and upper(a.state_abbreviation) = split_part(upper(c.jurisdiction_code), '_', 2)
+    where b.companyname is null
+  );
+15:32:12.849049 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+15:32:14.362856 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.51 seconds
+15:32:14.365467 [debug] [Thread-1  ]: finished collecting timing info
+15:32:14.365734 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_3_model: Close
+15:32:14.835926 [info ] [Thread-1  ]: 3 of 4 OK created view model myschema.melio_matching_3_model ................... [[32mSUCCESS 1[0m in 2.01s]
+15:32:14.836623 [debug] [Thread-1  ]: Finished running node model.melio_matching.melio_matching_3_model
+15:32:14.836906 [debug] [Thread-1  ]: Began running node model.melio_matching.melio_matching_results_dbt
+15:32:14.837209 [info ] [Thread-1  ]: 4 of 4 START incremental model myschema.melio_matching_results_dbt ............. [RUN]
+15:32:14.837994 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.melio_matching.melio_matching_results_dbt"
+15:32:14.838236 [debug] [Thread-1  ]: Began compiling node model.melio_matching.melio_matching_results_dbt
+15:32:14.838438 [debug] [Thread-1  ]: Compiling model.melio_matching.melio_matching_results_dbt
+15:32:14.842780 [debug] [Thread-1  ]: Writing injected SQL for node "model.melio_matching.melio_matching_results_dbt"
+15:32:14.844551 [debug] [Thread-1  ]: finished collecting timing info
+15:32:14.844893 [debug] [Thread-1  ]: Began executing node model.melio_matching.melio_matching_results_dbt
+15:32:14.897902 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_results_dbt"
+15:32:14.898130 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_results_dbt: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "node_id": "model.melio_matching.melio_matching_results_dbt"} */
+
+    
+
+      create or replace temporary table my_database.myschema.melio_matching_results_dbt__dbt_tmp  as
+      (
+
+SELECT * FROM  myschema.melio_matching_1_model
+UNION ALL
+SELECT * FROM myschema.melio_matching_2_model
+UNION ALL 
+SELECT * FROM myschema.melio_matching_3_model
+      );
+15:32:14.898270 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+15:45:56.268813 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 821.36 seconds
+15:45:56.528883 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_results_dbt"
+15:45:56.532532 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_results_dbt: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "node_id": "model.melio_matching.melio_matching_results_dbt"} */
+
+    describe table my_database.myschema.melio_matching_results_dbt__dbt_tmp
+15:45:56.819729 [debug] [Thread-1  ]: SQL status: SUCCESS 14 in 0.29 seconds
+15:45:56.832108 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_results_dbt"
+15:45:56.832358 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_results_dbt: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "node_id": "model.melio_matching.melio_matching_results_dbt"} */
+
+    describe table my_database.myschema.melio_matching_results_dbt
+15:45:57.095441 [debug] [Thread-1  ]: SQL status: SUCCESS 14 in 0.26 seconds
+15:45:57.111200 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_results_dbt"
+15:45:57.111466 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_results_dbt: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "node_id": "model.melio_matching.melio_matching_results_dbt"} */
+
+    describe table "MY_DATABASE"."MYSCHEMA"."MELIO_MATCHING_RESULTS_DBT"
+15:45:57.368676 [debug] [Thread-1  ]: SQL status: SUCCESS 14 in 0.26 seconds
+15:45:57.402937 [debug] [Thread-1  ]: Writing runtime SQL for node "model.melio_matching.melio_matching_results_dbt"
+15:45:57.411782 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_results_dbt"
+15:45:57.412038 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_results_dbt: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "melio_matching", "target_name": "dev", "node_id": "model.melio_matching.melio_matching_results_dbt"} */
+begin;
+15:45:57.709601 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.3 seconds
+15:45:57.709911 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_results_dbt"
+15:45:57.710126 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_results_dbt: insert into my_database.myschema.melio_matching_results_dbt ("CLEANEDNAME", "COMPANYNAME", "NAME", "OFFICERS_NAME", "COMPANY_NUMBER", "DELIVERY_LINE_1", "CITY_NAME", "STATE_ABBREVIATION", "ZIPCODE", "REGISTERED_ADDRESS_STREET_ADDRESS", "REGISTERED_ADDRESS_LOCALITY", "JURISDICTION_CODE", "REGISTERED_ADDRESS_POSTAL_CODE", "RDI")
+        (
+            select "CLEANEDNAME", "COMPANYNAME", "NAME", "OFFICERS_NAME", "COMPANY_NUMBER", "DELIVERY_LINE_1", "CITY_NAME", "STATE_ABBREVIATION", "ZIPCODE", "REGISTERED_ADDRESS_STREET_ADDRESS", "REGISTERED_ADDRESS_LOCALITY", "JURISDICTION_CODE", "REGISTERED_ADDRESS_POSTAL_CODE", "RDI"
+            from my_database.myschema.melio_matching_results_dbt__dbt_tmp
+        );
+15:46:00.673499 [debug] [Thread-1  ]: SQL status: SUCCESS 169 in 2.96 seconds
+15:46:00.690272 [debug] [Thread-1  ]: Using snowflake connection "model.melio_matching.melio_matching_results_dbt"
+15:46:00.690697 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_results_dbt: commit;
+15:46:01.118571 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.43 seconds
+15:46:01.141890 [debug] [Thread-1  ]: finished collecting timing info
+15:46:01.142532 [debug] [Thread-1  ]: On model.melio_matching.melio_matching_results_dbt: Close
+15:46:01.642026 [info ] [Thread-1  ]: 4 of 4 OK created incremental model myschema.melio_matching_results_dbt ........ [[32mSUCCESS 1[0m in 826.80s]
+15:46:01.648658 [debug] [Thread-1  ]: Finished running node model.melio_matching.melio_matching_results_dbt
+15:46:01.659889 [debug] [MainThread]: Acquiring new snowflake connection "master"
+15:46:01.661562 [info ] [MainThread]: 
+15:46:01.662344 [info ] [MainThread]: Finished running 3 view models, 1 incremental model in 838.30s.
+15:46:01.663020 [debug] [MainThread]: Connection 'master' was properly closed.
+15:46:01.663186 [debug] [MainThread]: Connection 'model.melio_matching.melio_matching_results_dbt' was properly closed.
+15:46:01.698678 [info ] [MainThread]: 
+15:46:01.699280 [info ] [MainThread]: [32mCompleted successfully[0m
+15:46:01.699654 [info ] [MainThread]: 
+15:46:01.699991 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
